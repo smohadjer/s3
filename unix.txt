@@ -1,0 +1,35 @@
+//show a list of running processes
+ps -e
+
+//find pid of a process
+pidof nameOfProcess
+
+//create a file with some text in it
+echo Òmy textÓ > myfile.txt
+echo "<?php echo exec('whoami'); ?>" > whoami.php
+
+//To create ssh keys for a user inside a folder run this command inside that folder
+sudo -u myUserName ssh-keygen -t rsa
+
+//To find home directory of a user:
+echo ~myUserName
+
+//To list open ports on my server
+sudo nmap -sT -O 83.169.4.180
+
+//To see path variable
+echo $PATH
+
+To run a shell script:
+sh myscript
+
+//start a local server from any folder on mac
+python -m SimpleHTTPServer 8000
+
+//to search through your command history in the terminal, press Ctrl-R and type your search key
+
+==============================
+YARN
+
+- To install types for typescript: yarn add @types/react --save
+
